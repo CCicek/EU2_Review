@@ -1,6 +1,6 @@
 package SeleniumReview.pages;
 
-import com.cybertek.utilities.Driver;
+import SeleniumReview.utilities.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 

@@ -1,7 +1,7 @@
 package SeleniumReview.pages;
 
-import com.cybertek.utilities.ConfigurationReader;
-import com.cybertek.utilities.Driver;
+import SeleniumReview.utilities.ConfigurationReader;
+import SeleniumReview.utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;

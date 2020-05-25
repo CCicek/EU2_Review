@@ -1,7 +1,7 @@
 package SeleniumReview.pages;
 
-import com.cybertek.utilities.BrowserUtils;
-import com.cybertek.utilities.Driver;
+import SeleniumReview.utilities.BrowserUtils;
+import SeleniumReview.utilities.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
