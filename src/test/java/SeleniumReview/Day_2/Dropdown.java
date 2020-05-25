@@ -41,16 +41,32 @@ public class Dropdown extends TestBase {
         driver.findElement(By.xpath("//a[@href='/dropdown']")).click();
         Select select = new Select(driver.findElement(By.name("Languages")));
 
-        List<WebElement>options=select.getOptions();
+        List<WebElement> options = select.getOptions();
 
         for (WebElement option : options) {
             Thread.sleep(1000);
             select.selectByVisibleText(option.getText());
         }
 
+        for (WebElement option : options) {
+            System.out.println("option.getText() = " + option.getText());
+        }
         Thread.sleep(3000);
 
         select.deselectAll();
+
+    }
+
+    @Test
+
+    public void dropdown5() throws InterruptedException {
+
+        driver.findElement(By.xpath("//a[@href='/dropdown']")).click();
+        driver.findElement(By.id("dropdownMenuLink")).click();
+        driver.findElement(By.xpath("//a[text()='Facebook']")).click();
+        Thread.sleep(2000);
+        System.out.println("driver.getTitle() = " + driver.getTitle());
+
 
     }
 }
