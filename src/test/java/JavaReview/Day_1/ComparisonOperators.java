@@ -7,6 +7,7 @@ public class ComparisonOperators {
         int n2=55;
         System.out.println(n1 > n2);
 
+
         double p1=45.32;
         double p2=66.33;
 

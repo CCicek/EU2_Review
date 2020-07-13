@@ -1,4 +1,4 @@
-package com.erp.runners;
+package CucumberReview.Runner;
 
 
 import io.cucumber.junit.Cucumber;
@@ -10,8 +10,8 @@ import org.junit.runner.RunWith;
         plugin = {"json:target/cucumber.json",
                 "html:target/default-html-reports",
                 "rerun:target/rerun.txt"},
-        features = "src/test/resources/features/",
-        glue = "com/erp/step_definitions",
+        features = "src/test/resources/features",
+        glue = "CucumberReview/StepDefinitions",
         dryRun = false,
         tags = "@wip123"
 )

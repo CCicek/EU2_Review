@@ -69,7 +69,7 @@ public class TestBase {
         //if test failed
         if (result.getStatus()==ITestResult.FAILURE){
             //record the name fo failed test case
-            extentLogger.fail(result.getName());
+           extentLogger.fail(result.getName());
 
             //take the screenshot and return location of screenshot
             String screenShotPath = BrowserUtils.getScreenshot(result.getName());

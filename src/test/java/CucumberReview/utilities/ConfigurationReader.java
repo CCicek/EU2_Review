@@ -1,4 +1,4 @@
-package SeleniumReview.utilities;
+package CucumberReview.utilities;
 
 import java.io.FileInputStream;
 import java.util.Properties;
